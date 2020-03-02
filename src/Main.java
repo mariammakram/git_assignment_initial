@@ -8,7 +8,14 @@ public class Main {
 			new CircleArea(),
 			new SphereVolum(),
 			new SphereCircumference(),
+			new TwoPowerNSubscriber(),
+			new SphereVolum(),
+			new CircleCircumference(),
+			new Fibonacci(),
+      new LucasSeries(), 
+			new CircleVolume(),
 	};
+
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
