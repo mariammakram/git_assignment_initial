@@ -7,6 +7,7 @@ public class Main {
 			new SphereArea(),
 			new CircleArea(),
 			new SphereVolum(),
+			new SphereCircumference(),
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
