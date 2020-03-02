@@ -18,10 +18,7 @@ class LucasSeries implements ISubscriber
 	public void notifySubscriber(String input) {
             int n;
             n=Integer.parseInt(input);
-            System.out.println("Lucas Series: "+ lucas(n));
-            System.out.println("");
-            
-            
+            System.out.println("Lucas Series: "+ lucas(n));            
         }
 
 } 

@@ -17,6 +17,7 @@ public class Fibonacci implements ISubscriber {
 		if ((int)count >= 0) {
 			System.out.print("Fibonacci result = ");
 			fibonacci((int)count);
+			System.out.println("");
 		}
 		else 
 			System.out.println("Error, count can't be negative.");	
