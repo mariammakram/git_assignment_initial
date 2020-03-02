@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			new SimpleSubscriber(),
-			new ReallySimpleSubscriber(),
 			new SphereArea(),
 			new CircleArea(),
 			new SphereVolum(),
@@ -12,7 +10,7 @@ public class Main {
 			new SphereVolum(),
 			new CircleCircumference(),
 			new Fibonacci(),
-      new LucasSeries(), 
+			new LucasSeries(), 
 			new CircleVolume(),
 	};
 
