@@ -7,13 +7,13 @@ public class Main {
 			new SphereArea(),
 			new CircleArea(),
 			new SphereVolum(),
+			new SphereCircumference(),
 			new TwoPowerNSubscriber(),
 			new SphereVolum(),
 			new CircleCircumference(),
 			new Fibonacci(),
       new LucasSeries(), 
 			new CircleVolume(),
-
 	};
 
 	public static void main(String[] args) {
