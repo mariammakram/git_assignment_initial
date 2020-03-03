@@ -12,7 +12,6 @@ public class Main {
 			new Fibonacci(),
 			new LucasSeries(), 
 			new CircleVolume(),
-                        new FactorialExample(),
                         new multiplicationseries(),
 
 	};
