@@ -11,6 +11,9 @@ public class Main {
 			new Fibonacci(),
 			new LucasSeries(), 
 			new CircleVolume(),
+                        new FactorialExample(),
+                        new multiplicationseries(),
+
 	};
 
 	public static void main(String[] args) {
