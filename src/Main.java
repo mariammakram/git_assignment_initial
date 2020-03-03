@@ -2,14 +2,16 @@ import java.util.Scanner;
 
 public class Main {
 	private static ISubscriber subscribers [] = {
-			new SimpleSubscriber(),
-			new ReallySimpleSubscriber(),
 			new SphereArea(),
 			new CircleArea(),
 			new SphereVolum(),
+			new SphereCircumference(),
 			new TwoPowerNSubscriber(),
 			new SphereVolum(),
 			new CircleCircumference(),
+			new Fibonacci(),
+			new LucasSeries(), 
+			new CircleVolume(),
 	};
 
 	public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class Main {
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
 		}
-		System.out.println("Please Enter your Input:");
+		System.out.print("Please Enter your Input: ");
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);

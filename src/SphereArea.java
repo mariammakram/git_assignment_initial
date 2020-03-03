@@ -1,8 +1,7 @@
 
 public class SphereArea implements ISubscriber{
 	public double sphereArea(double r) {
-		double area = 0.0;
-		area = 4.0 * Math.PI * Math.pow(r, 2.0);
+		double area = 4.0 * Math.PI * r * r;
 		return area;
 	}
 	@Override
@@ -14,5 +13,4 @@ public class SphereArea implements ISubscriber{
 		else
 			System.out.println("The radius is negative!");
 	}
-
 }
